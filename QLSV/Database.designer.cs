@@ -36,7 +36,7 @@ namespace QLSV
     #endregion
 		
 		public DatabaseDataContext() : 
-				base(global::QLSV.Properties.Settings.Default.qlsvConnectionString1, mappingSource)
+				base(global::QLSV.Properties.Settings.Default.qlsvConnectionString3, mappingSource)
 		{
 			OnCreated();
 		}
